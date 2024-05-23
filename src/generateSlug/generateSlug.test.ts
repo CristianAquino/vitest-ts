@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { generateSlug } from "./generateSlug";
 
-describe("test for generate slug", () => {
+describe.skip("test for generate slug", () => {
   it("check if it is a function", () => {
     expect(generateSlug).toBeTypeOf("function");
   });

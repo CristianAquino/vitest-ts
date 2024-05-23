@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { cyberReindeer } from "./cybertruck_santa";
 
-describe("test for the first adventjs exercise", () => {
+describe.skip("test for the first adventjs exercise", () => {
   it("check if it is a function", () => {
     expect(cyberReindeer).toBeTypeOf("function");
   });

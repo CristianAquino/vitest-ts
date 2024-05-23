@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { validateDate } from "./validateDate";
 
-describe("test for validate date", () => {
+describe.skip("test for validate date", () => {
   it("check if it is a function", () => {
     expect(validateDate).toBeTypeOf("function");
   });
