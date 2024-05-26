@@ -42,6 +42,5 @@ function organizeGifts(gifts: string) {
       );
     })
     .join("");
-  return "";
 }
 export { organizeGifts };

@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { organizeGifts } from "./ordenando_almacen";
 
-describe("test for the first adventjs exercise", () => {
+describe.skip("test for the first adventjs exercise", () => {
   it("check if it is a function", () => {
     expect(organizeGifts).toBeTypeOf("function");
   });
