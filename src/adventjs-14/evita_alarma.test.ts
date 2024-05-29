@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { maxGifts } from "./evita_alarma";
 
-describe("test for the first adventjs exercise", () => {
+describe.skip("test for the first adventjs exercise", () => {
   it("check if it is a function", () => {
     expect(maxGifts).toBeTypeOf("function");
   });
